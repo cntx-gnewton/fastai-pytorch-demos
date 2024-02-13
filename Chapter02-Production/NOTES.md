@@ -1,12 +1,87 @@
-# Notes
+# Chapter 02: Production
 
-## Chapter 2: Production
+## Homework Assignment 2
+
+### Questionnaire
+
+1. Provide an example of where the bear classification model might work poorly in production, due to structural or style differences in the training data.  
+ - The model was trained on images of bears that are biased to be good examples of bears in the wild. However, in production we would have to handle video (groups of images) of random bears in the wild, where the picture quality and style is dependent on the camera, the environment, and the bear's behavior.
+2. Where do text models currently have a major deficiency?
+  - NLP models currently can't be relied upon for correct information.
+3. What are possible negative societal implications of text generation models?
+  - Persuasisve Misinformation on a massive, global scale. 
+4. In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process?
+  - Human-in-the-loop (checks all preds)
+5. What kind of tabular data is deep learning particularly good at?
+ - tabular data with a variety of data types.
+6. What's a key downside of directly using a deep learning model for recommendation systems?
+  - Reccomendation systems are based on a person's preferences, not on a person's needs.
+7. What are the steps of the Drivetrain Approach?
+  - Define the objective
+  - Identify levers
+  - Collect Data
+  - Build a model & test different levers.
+8. How do the steps of the Drivetrain Approach map to a recommendation system?
+   - Objective: To increase sales by recommending products customer's want to buy.
+  - Levers: Products, Customers, Environment (Time, Location, etc.).
+  - Data: Sales, Customer Preferences, Product Preferences, etc.
+  - Model: Advesarial Recommender System, or a Hybrid Recommender System.
+9.  Create an image recognition model using data you curate, and deploy it on the web.
+10. What is `DataLoaders`?
+  - A thin _fastai_ class that can contain multiple pytorch `DataLoader` objects. Normally train & validate.
+11. What four things do we need to tell fastai to create `DataLoaders`?
+  - What kind of data
+  - How to get the data
+  - How to label the data
+  - How to validate the model (split the data)
+12. What does the `splitter` parameter to `DataBlock` do?
+  - It splits the given data into training/validation datasets.
+13. How do we ensure a random split always gives the same validation set?
+  - Set a random seed.
+14. What letters are often used to signify the independent and dependent variables?
+  - x, y
+15. What's the difference between the crop, pad, and squish resize approaches? When might you choose one over the others?
+  - Crop: augments the image by selecting portions of the image to train as a new image.
+  - Pad: augments the image by adding blank pixels to the image to train as a new image standard to the batch.
+  - Squish Resize: augments the image by applying a global transform to the image to train as a new image. 
+16. What is data augmentation? Why is it needed?
+  - Data Augmentation is the process of creating new data from existing data given data science techniques.. in computer vision this is often done by cropping, padding, and squishing images. It is needed to increase the amount of data available to train the model. Labelled data is scarce and expensive.
+17. What is the difference between `item_tfms` and `batch_tfms`?
+  - `item_tfms` are applied to each item in the dataset, while `batch_tfms` are applied to each batch in the dataset.    
+18. What is a confusion matrix?
+  - A classification metric that can calculate different types of classification accuracies based on recall and precision.
+19. What does `export` save?
+  - Saves the architecture and parameters of the model as a pickle. 
+20. What is it called when we use a model for getting predictions, instead of training?
+  - Inference.
+21. What are IPython widgets?
+  - A python library that allows for javascript components to be used in a jupyter botebook.
+22. When might you want to use CPU for deployment? When might GPU be better?
+  - CPU: When we dont need to do tasks in parallel. Inference is a 'Queue' based process, perfect for CPU.
+  - GPU: When batches of jobs need to be processed in parallel.
+23. What are the downsides of deploying your app to a server, instead of to a client (or edge) device such as a phone or PC?
+  - The client needs network connection. Inferencing a model across the web introduces network latency on response times, however assuming the server is specialized for computation, then the latency of the network connection might not even be an issue. Bandwidth, is a concern though.
+24.  What are three examples of problems that could occur when rolling out a bear warning system in practice?
+  - An _Out-of-Domain_-looking bear is not detected.
+  - The specific environment(time, location, etc.) is not accounted for by training.
+  - The camera hardware (image quality) is not accounted for by training.
+25.  What is "out-of-domain data"?
+  - Examples of data that the model was not trained on.
+26.  What is "domain shift"?
+  - When the data the model see's characteristically changes over time.
+27.  What are the three steps in the deployment process?
+  - Manual Process
+  - Limited Scope
+  - Gradual Expansion
+  - Full-Scale
+
+## Notes
 
 ### 2.1: Introduction
 
 - Keeping **Constraints** vs. **Capabilities** In Mind
 
-  - It is important to keep in mind the constraints and capabilities of deep learning. 
+  - It is important to keep in mind the constraints and capabilities of deep learning.
   - Underestimating the constraints might mean that you fail to consider and react to important issues.
   - Underestimating the capabilities means that you might not even try things that could be very beneficial.
 
