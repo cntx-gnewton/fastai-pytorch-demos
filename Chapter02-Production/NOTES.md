@@ -75,6 +75,21 @@
   - Gradual Expansion
   - Full-Scale
 
+
+### Further Research
+
+1. Consider how the Drivetrain Approach maps to a project or problem you're interested in.
+   - Objective: Make as much money by betting on NBA Games.
+   - Levers: Teams, Management, Roster, Environment (Time, Location, etc.).
+   - Data: Game Stats, Player Stats, Team Stats, etc.
+   - Model: Binary Classification Neural Network (Win/Loss).
+2. When might it be best to avoid certain types of data augmentation?
+   - When the data isn't labelled confidently or is not cleaned to the best of the ability.
+3. For a project you're interested in applying deep learning to, consider the thought experiment "What would happen if it went really, really well?"
+  - For the NBA betting project, I would be able to make enough money to immediately buy a GPU server farm to use to train other models and mine cryptocurrencies.
+4. Start a blog, and write your first blog post. For instance, write about what you think deep learning might be useful for in a domain you're interested in.
+  
+
 ## Notes
 
 ### 2.1: Introduction

@@ -1,10 +1,10 @@
 # [Fastai Pytorch Demos](https://github.com/fastai/fastbook/blob/master)
 
-## Demos
+## Chapters
+
+### [02 Production](Chapter02-Production\\02_production.ipynb) [_Assignment_](Chapter02-Production\\NOTES.md)
 
 ### [01 Intro](Chapter01-Intro\\01_intro.ipynb)
-
-### [02 Production](Chapter02-Production\\02_production.ipynb) [_notes_](Chapter02-Production\\NOTES.md)
 
 ## Resources
 
