@@ -2,11 +2,13 @@
 
 ## Chapters
 
-### 02: Production
+### 02: Production [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cntx-gnewton/fastai-pytorch-demos/main?labpath=Chapter02-Production%2F02_production.ipynb)
 
-- [Assignment](Chapter02-Production/02_production.ipynb) [_notes_](Chapter02-Production/NOTES.md)
+- [Assignment](Chapter02-Production/02_production.ipynb)
+- [_notes_](Chapter02-Production/NOTES.md)
 
-### 01: Intro
+
+### [2/6/24] 01: Intro
 
 - [Assignment](Chapter01-Intro/01_intro.ipynb) [_notes_](Chapter01-Intro/NOTES.md)
 
