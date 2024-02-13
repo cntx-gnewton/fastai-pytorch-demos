@@ -1,3 +1,6 @@
+<font color="lightblue">
+</font>
+
 # Chapter 02: Production
 
 ## Homework Assignment 2
@@ -139,6 +142,7 @@ that could be very beneficial, and underestimating the constraints might mean th
 - Importance of _End-to-End_ **Iterational Development**
 
   - I find this is extremly important for the following reasons:
+    - It helps identify 'Ockham's Solution' as the MVP for the project.
     - It helps to identify the most important parts of the project
     - It helps to identify the most difficult parts of the project
     - It helps to identify the most time-consuming parts of the project
@@ -168,3 +172,11 @@ the biggest difference to the final result.
   - This is because the data that the model was trained on might not be the same as the data that the model will be used on.
 
 ```
+
+
+- Fastai: Tools and Utilities
+  - I had no idea how many extremly helpful tools and utilies fastai has to offer. It truly is _fastai_.
+- Fastai Framework
+  - I like how fastai is basically a wrapper around pytorch that makes it easier to a jupyter notebook as a _stream-of-concioussness_ style of ML Pipeline.
+- Fastai & Voila Deployment
+  - The _stream-of-concioussness_ style ML Pipeline fastai promotes is perfect for deploying with  voila, a library that integrates javascript input widgets into a jupyter notebook.

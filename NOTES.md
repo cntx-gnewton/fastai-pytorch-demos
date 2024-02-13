@@ -2,9 +2,13 @@
 
 ## Chapters
 
-### [02 Production](Chapter02-Production\\02_production.ipynb) [_Assignment_](Chapter02-Production\\NOTES.md)
+### 02: Production
 
-### [01 Intro](Chapter01-Intro\\01_intro.ipynb)
+- [Assignment](Chapter02-Production\\NOTES.md) [(_ntbk_)](Chapter02-Production\\02_production.ipynb)
+
+### 01: Intro
+
+- [Assignment](Chapter01-Intro\\NOTES.md) [(_ntbk_)](Chapter01-Intro\\01_intro.ipynb)
 
 ## Resources
 
