@@ -1,4 +1,4 @@
-# BIOE_6306: [Fastai Demos - Greyson Newton](https://github.com/fastai/fastbook/blob/master) 
+# BIOE_6306: [Fastai Chapter Demos - Greyson Newton](https://github.com/fastai/fastbook/blob/master) 
 
 ## Chapters
 
