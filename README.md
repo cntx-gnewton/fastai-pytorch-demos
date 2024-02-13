@@ -4,11 +4,11 @@
 
 ### 02: Production
 
-- [Assignment](Chapter02-Production\\NOTES.md) [(_ntbk_)](Chapter02-Production\\02_production.ipynb)
+- [Assignment](Chapter02-Production/02_production.ipynb) [_notes_](Chapter02-Production/NOTES.md)
 
 ### 01: Intro
 
-- [Assignment](Chapter01-Intro\\NOTES.md) [(_ntbk_)](Chapter01-Intro\\01_intro.ipynb)
+- [Assignment](Chapter01-Intro/01_intro.ipynb) [_notes_](Chapter01-Intro/NOTES.md)
 
 ## Resources
 

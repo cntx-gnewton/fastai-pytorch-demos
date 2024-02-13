@@ -1,5 +1,3 @@
-<font color="lightblue">
-</font>
 
 # Chapter 02: Production
 
