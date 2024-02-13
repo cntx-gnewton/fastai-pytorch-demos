@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastai-pytorch-demos"
+version = "0.1.0"
+description = "Fastai pytorch demos."
+authors = ["Cosnetix <greysonnewton@cosnetix.com>"]
+readme = "README.md"
+packages = [{include = "fastai_pytorch_demos"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+python-dotenv = "^1.0.1"
+fastai = "^2.7.14"
+fastbook = "^0.0.29"
+pillow = "^10.2.0"
+voila = "^0.5.5"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
