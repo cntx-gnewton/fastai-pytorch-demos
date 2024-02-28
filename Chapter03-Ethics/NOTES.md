@@ -59,13 +59,36 @@
 1. Read the article "What Happens When an Algorithm Cuts Your Healthcare". How could problems like this be avoided in the future?
   - Problems like this could be avoided in the future by implementing recourse processes that allow people to challenge algorithms and the decisions made by them.
 2. Research to find out more about YouTube's recommendation system and its societal impacts. Do you think recommendation systems must always have feedback loops with negative results? What approaches could Google take to avoid them? What about the government?
-
-3. Read the paper ["Discrimination in Online Ad Delivery"](https://arxiv.org/abs/1301.6822). Do you think Google should be considered responsible for what happened to Dr. Sweeney? What would be an appropriate response?
+ -  Feedback loops are necessary to train recommendation systems. Even though it might seem like negative feedback loops are unavoidable, Google could implement a system that allows users to flag videos that are inappropriate and then use that data to train the recommendation system to avoid recommending similar videos in the future. The government could also implement regulations that require companies to implement such systems.
+3. Read the paper ["Discrimination in Online Ad Delivery"](https://arxiv.org/abs/1301.6822). Do you think **Google** should be considered responsible for what happened to Dr. Sweeney? What would be an appropriate response?
+    - Yes, Google should be considered responsible for what happened to Dr. Sweeney. It is their ethical responsibility to take accountability for the effects of their products to society. An appropriate response would be to implement a system that allows users to flag ads that are inappropriate and then use that data to train the ad delivery system to avoid delivering similar ads in the future.
 4. How can a cross-disciplinary team help avoid negative consequences?
+    - A cross-disciplinary team can help broaden the perspectives and experiences that are considered when making product development decisions, which can help avoid negative consequences through mitigating biases.
 5. Read the paper "Does Machine Learning Automate Moral Hazard and Error". What actions do you think should be taken to deal with the issues identified in this paper?
+ - Improve data quality
+ - Regularly audit and evaluate the performance of machine learning models.
+ - Use explainable AI techniques in order for results to be interpretable.
 6. Read the article "How Will We Prevent AI-Based Forgery?" Do you think Etzioni's proposed approach could work? Why?
-7. Complete the section "Analyze a Project You Are Working On" in this chapter.
-8. Consider whether your team could be more diverse. If so, what approaches might help?
+ - Technically, I think it could work. Realistically, I think it would be difficult to implement and enforce. It would require a lot of cooperation between different organizations and governments, and the general public would have to be educated on how to verify the authenticity of digital content and the importance of doing so in order for systematic adoption to take place.
+8. Complete the section "Analyze a Project You Are Working On" in this chapter.
+  - Should we even be doing this?
+    - Yes, the project is to develop an overarching data model, data governance, and data science models for the operations of a mid-stream oil and gas company.
+  - What bias is in the data?
+    - Measurement bias in the meters that are used to measure the flow of oil and gas.
+    - Aggregation bias in the way that the data is aggregated and stored.
+  - Can the code and data be audited?
+   - Yes, the code undergoes strict CI/CD processes with code reviews.
+  - What are the error rates for different sub-groups?
+    - The error rates for different sub-groups are unknown.
+  - What is the accuracy of a simple rule-based alternative?
+    - Very low.
+  - What processes are in place to handle appeals or mistakes?
+    - There is a dashboard that allows users to see the data and make decisions based on the data. If they have an issue with the ML model, they can appeal to the data science team.
+  - How diverse is the team that built it?
+    - Extremly diverse.
+9.  Consider whether your team could be more diverse. If so, what approaches might help?
+  - Maybe having a software engineer and a CI/CD engineer on the team would help.  Cross-training in other areas. But we have a diverse team already.
+
 
 ## Notes
 
@@ -130,13 +153,3 @@
   - Who are all the stakeholders who will be directly affected by our product? How have their interests been protected? How do we know what their interests really are—have we asked?
   - Who/which groups and individuals will be indirectly affected in significant ways?
   - Who might use this product that we didn’t expect to use it, or for purposes we didn’t initially intend?
-
-```markdown
-
-We often talk to people who underestimate both the constraints and the capabilities of deep learning. 
-Both of these can be problems: underestimating the capabilities means that you might not even try things 
-that could be very beneficial, and underestimating the constraints might mean that you fail to consider and react to important issues.
-
-
-```
-
